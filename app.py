@@ -4,7 +4,7 @@ import csv
 from datetime import datetime
 from dotenv import dotenv_values
 
-config = dotenv_values('.env')
+config = dotenv_values('{path}/.env'.format(path=os.getcwd()))
 
 def getServerStatus():
     disk_usage = psutil.disk_usage('/')
