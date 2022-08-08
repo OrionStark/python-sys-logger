@@ -1,5 +1,5 @@
 # Simple Python Server Logger
-This is a small python runtime for collection the server status.
+This is a small python runtime for collecting the server status.
 
 ### ENV Example
 ```javascript
